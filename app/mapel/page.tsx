@@ -18,7 +18,7 @@ const getMapels = async () => {
     return res;
 }
 
-const Pegawai = async () => {
+const Mapel = async () => {
     const [mapels] = await Promise.all([getMapels()]);
   return (
     <div>
@@ -56,4 +56,4 @@ const Pegawai = async () => {
   )
 }
 
-export default Pegawai
+export default Mapel
