@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Pegawai" ALTER COLUMN "jeniskelamin" DROP NOT NULL,
+ALTER COLUMN "agama" DROP NOT NULL,
+ALTER COLUMN "alamat" DROP NOT NULL;
