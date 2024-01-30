@@ -12,7 +12,7 @@ type Mapel = {
     status: string;
 };
 
-const UpdateMapel = ({mapel}: {mapel: Mapel}) => {
+const UpdateMapel = ({mapel}: {mapel: Mapel;}) => {
     const [namapel, setNamapel] = useState(mapel.namapel)
     const [nik, setNik] = useState(mapel.nik)
     const [namaguru, setNamaguru] = useState(mapel.namaguru)

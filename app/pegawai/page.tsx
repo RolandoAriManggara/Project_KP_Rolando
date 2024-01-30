@@ -38,7 +38,7 @@ const Pegawai = async () => {
                     <th>Agama</th>
                     <th>Alamat</th>
                     <th>Jenis Kelamin</th>
-                    <th>Jabatan</th>
+                    <th>Status</th>
                     <th className="text-center">Aksi</th>
                 </tr>
             </thead>

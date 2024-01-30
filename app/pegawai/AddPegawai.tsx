@@ -93,9 +93,9 @@ const AddPegawai = () => {
                                 className="input input-bordered h-20" placeholder="Alamat"></textarea>
                         </div>
                         <div className="form-control w-full">
-                            <label className="label font-bold">Jabatan</label>
+                            <label className="label font-bold">Status</label>
                             <select value={jabatan} onChange={(e) => setJabatan(e.target.value)} className="input input-bordered">
-                                <option value="" disabled>--Pilih Jabatan--</option>
+                                <option value="" disabled>--Pilih Status--</option>
                                 <option value="ASN">ASN</option>
                                 <option value="PPPK">PPPK</option>
                                 <option value="Honor">Honor</option>
